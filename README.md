@@ -24,3 +24,13 @@ Try to use this repository motivate myself to learn more web development
 Here it is list of feature I would like to build [issue](https://github.com/sharechiwai/lowcostweb/issues)  
 
 Let's learn together.
+
+### Cypress
+To run cypress
+```
+## first start up website
+npm run dev
+
+## launch Cypress
+npm run cypress:open
+```
