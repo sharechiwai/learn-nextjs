@@ -7,8 +7,8 @@ import React, { useEffect, useState, Fragment } from 'react';
 import { useTheme } from 'next-themes';
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Contact', href: '/contact/' },
+  { name: 'Home', href: '/', id: 'home' },
+  { name: 'Contact', href: '/contact/', id: 'contact' },
 ];
 
 function classNames(...classes) {
@@ -54,6 +54,7 @@ export default function NavBar() {
                       {navigation.map((item) => (
                         <Link key={item.name} href={item.href}>
                           <a
+                            data-cy={item.id}
                             className={classNames(
                               router.asPath === item.href
                                 ? 'bg-gray-900 text-white'
