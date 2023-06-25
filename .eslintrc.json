@@ -1,21 +1,20 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": [
-    "plugin:react/recommended",
-    "standard",
-    "prettier",
-    "next/core-web-vitals"
-  ],
+  "extends": "next/core-web-vitals",
+  "plugins": ["import"],
   "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "alphabetize": { "order": "asc" },
+        "newlines-between": "always"
+      }
+    ],
+    "space-before-function-paren": 0,
+    "semi": ["error", "always"],
+    "comma-dangle": [2, "always-multiline"]
+  }
 }
