@@ -41,4 +41,5 @@ npm run dev
 npm run cypress:open
 ```
 
-[![Known Vulnerabilities](https://snyk.io/test/github/sharechiwai/lowcostweb/badge.svg)]
+[![Known Vulnerabilities](https://snyk.io/test/github/sharechiwai/lowcostweb/badge.svg)](https://snyk.io/test/github/sharechiwai/lowcostweb)
+
