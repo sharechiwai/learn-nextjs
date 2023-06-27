@@ -43,3 +43,4 @@ npm run cypress:open
 
 [![Known Vulnerabilities](https://snyk.io/test/github/sharechiwai/lowcostweb/badge.svg)](https://snyk.io/test/github/sharechiwai/lowcostweb)
 
+[![codecov](https://codecov.io/gh/sharechiwai/lowcostweb/branch/main/graph/badge.svg?token=DNHUO00XOX)](https://codecov.io/gh/sharechiwai/lowcostweb)
